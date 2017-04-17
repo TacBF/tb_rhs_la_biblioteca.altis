@@ -1,0 +1,60 @@
+// PMC - GK Sierra
+// Author: Cole, Alonso
+
+gear[] =
+{
+// WEAPONS
+
+	// Rifles
+	{"arifle_TRG21_F", {__ICE_gear_midRangeScopeRoles}},
+	{"arifle_TRG21_GL_F", {__ICE_gear_Grenadier}},
+	
+	// Marksman
+	{"rhs_weap_m14ebrri", {__ICE_gear_Marksman}},
+		
+	// Machine Guns
+	{"LMG_Zafir_F", {__ICE_gear_MG}},
+
+   // SMG
+   {"SMG_01_F", {__ICE_gear_Pilot}},
+      
+	// Pistols
+	{"rhsusf_weap_glock17g4", {__ICE_gear_allRoles}},
+
+// ATTACHMENTS
+
+	// Rifle Scopes
+   {"optic_MRCO", {__ICE_gear_midRangeScopeRoles}},
+	{"CUP_optic_CompM4", {__ICE_gear_midRangeScopeRoles, __ICE_gear_MG}},
+	{"rhsusf_acc_eotech_552", {__ICE_gear_midRangeScopeRoles, __ICE_gear_MG}},
+   {"rhsusf_acc_EOTECH", {__ICE_gear_midRangeScopeRoles, __ICE_gear_MG}, 1},
+	{"rhsusf_acc_compm4", {__ICE_gear_midRangeScopeRoles, __ICE_gear_MG}, 1},
+   {"optic_Hamr", {__ICE_gear_SL}},
+   {"optic_Aco_smg", {__ICE_gear_Pilot}},
+   
+   {"acc_flashlight", {__ICE_gear_midRangeScopeRoles}},
+      
+	// Sniper/Marksman Scopes
+	{"optic_SOS", {__ICE_gear_Marksman}},
+	{"rhsusf_acc_harris_bipod", {__ICE_gear_Marksman}},
+
+// EQUIPMENT
+
+	// Grenades
+	{"rhs_mag_m67", {__ICE_gear_allRoles}},	
+	{"rhs_mag_mk84", {__ICE_gear_allRoles}, 1},
+	{"rhs_mag_an_m14_th3", {__ICE_gear_allRoles}, 1},
+	{"SmokeShellGreen", {__ICE_gear_allRoles}},
+	{"Chemlight_green", {__ICE_gear_allRoles}},
+		
+	// Backpacks
+	{"B_TacticalPack_blk", {__ICE_gear_Inf}, 1},
+	{"tf_rt1523g_bwmod", {__ICE_gear_allRoles}, 1},
+	
+	// Flares
+	{"rhs_weap_rsp30_green", {__ICE_gear_allRoles}},
+   {"UGL_FlareGreen_F", {__ICE_gear_Grenadier}},
+		
+	// Binoculars
+	{"Binocular", {__ICE_gear_allRoles}, 1}
+};

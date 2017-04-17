@@ -1,0 +1,62 @@
+// RUS - Undercover Iran
+// Author: Cole, Alonso
+
+gear[] =
+{
+// WEAPONS
+
+	// Rifles
+	{"arifle_Katiba_F", {__ICE_gear_midRangeScopeRoles}},
+	{"arifle_Katiba_GL_F", {__ICE_gear_Grenadier}},
+		
+	// Marksman/Sniper Rifles
+	{"srifle_DMR_01_F", {__ICE_gear_Marksman}},
+		
+	// Machine Guns
+	{"rhs_weap_pkp", {__ICE_gear_MG}},
+
+   // SMG
+	{"SMG_02_F", {__ICE_gear_Pilot}},
+   
+	// Pistols
+	{"rhs_weap_pya", {__ICE_gear_allRoles}},
+		
+// ATTACHMENTS
+
+   // Rifle Scopes
+	{"optic_ACO_grn", {__ICE_gear_midRangeScopeRoles}},
+	{"optic_Aco", {__ICE_gear_midRangeScopeRoles}, 1},
+	{"optic_Hamr", {__ICE_gear_SL}},
+   {"optic_ACO_grn_smg", {__ICE_gear_Pilot}},
+	{"rhs_acc_pkas", {__ICE_gear_MG}},
+	{"rhs_acc_ekp1", {__ICE_gear_MG}},
+	{"rhs_acc_1p63", {__ICE_gear_MG}, 1},
+   
+   {"acc_flashlight", {__ICE_gear_midRangeScopeRoles}},
+   
+	// Sniper/Marksman Scopes
+	{"optic_SOS", {__ICE_gear_Marksman}},
+	{"rhsusf_acc_harris_bipod", {__ICE_gear_Marksman}},
+   
+// EQUIPMENT
+
+	// Grenades
+	{"rhs_mag_rgd5", {__ICE_gear_allRoles}},	
+	{"rhs_mag_fakel", {__ICE_gear_allRoles}, 1},
+	{"rhs_mag_rgo", {__ICE_gear_allRoles}, 1},
+	{"rhs_mag_rgn", {__ICE_gear_allRoles}, 1},
+	{"SmokeShellRed", {__ICE_gear_allRoles}},
+	{"Chemlight_red", {__ICE_gear_allRoles}},
+		
+	// Backpacks
+	{"B_Carryall_khk", {__ICE_gear_MG}, 1},
+   {"B_AssaultPack_rgr", {__ICE_gear_Inf}, 1},
+	{"tf_mr3000_rhs", {__ICE_gear_allRoles}, 1},
+	
+	// Flares
+	{"rhs_weap_rsp30_red", {__ICE_gear_allRoles}},
+   {"UGL_FlareRed_F", {__ICE_gear_Grenadier}},
+		
+	// Binoculars
+	{"Binocular", {__ICE_gear_allRoles}, 1}
+};

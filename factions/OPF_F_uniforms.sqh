@@ -1,0 +1,44 @@
+// RUS - Undercover Iran
+// Author: Cole, Alonso
+
+uniforms[] =
+{
+// UNIFORMS
+	
+	// Infantry
+	{"U_BG_Guerrilla_6_1", {__ICE_gear_allRoles}},
+	
+   // SL
+   {"U_BG_leader", {__ICE_gear_SL}},
+   
+   // Marksman
+   {"U_BG_Guerilla1_1", {__ICE_gear_Marksman}},
+   
+	// Pilot
+	{"U_I_HeliPilotCoveralls", {__ICE_gear_Pilot}},
+
+// VESTS
+	
+	// Infantry
+	{"V_Chestrig_khk", {__ICE_gear_allRoles}},
+	{"V_HarnessOGL_brn", {__ICE_gear_Grenadier}},
+	{"V_BandollierB_cbr", {__ICE_gear_SL}},
+	{"V_HarnessO_brn", {__ICE_gear_Marksman}},
+		
+	// Pilot
+	{"V_Rangemaster_belt", {__ICE_gear_Pilot}},
+
+// HELMETS
+	
+	// Infantry
+   {"H_ShemagOpen_tan", {__ICE_gear_Inf}},
+	{"H_Bandanna_cbr", {__ICE_gear_Medic}},
+	{"H_Watchcap_cbr", {__ICE_gear_Marksman, __ICE_gear_SL}},
+		
+	// Pilot
+	{"rhs_zsh7a_mike", {__ICE_gear_Pilot}},
+	
+// GLASSES
+	
+	{"G_Bandanna_blk", {__ICE_gear_allRoles}}
+};

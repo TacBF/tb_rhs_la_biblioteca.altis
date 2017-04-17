@@ -1,0 +1,32 @@
+// PMC - GK Sierra
+// Author: Cole, Alonso
+
+uniforms[] =
+{
+// UNIFORMS
+	
+	// Infantry
+	{"U_BG_Guerilla2_1", {__ICE_gear_allRoles}},
+	{"U_I_G_resistanceLeader_F", {__ICE_gear_SL}},
+		
+// VESTS
+	
+	// Infantry
+	{"V_PlateCarrier2_blk", {__ICE_gear_Inf}},
+
+// HELMETS
+	
+	// Infantry
+	{"H_Cap_tan", {__ICE_gear_Inf}},
+	{"H_Cap_oli", {__ICE_gear_Inf}},
+	{"H_Cap_blk", {__ICE_gear_Inf}},
+	{"rhsusf_bowman_cap", {__ICE_gear_SL}},
+   {"H_Cap_headphones", {__ICE_gear_Pilot}},
+	
+// GLASSES
+
+	{"rhs_googles_black", {__ICE_gear_allRoles}},
+	{"rhs_googles_orange", {__ICE_gear_allRoles}},
+	{"rhs_googles_yellow", {__ICE_gear_allRoles}},
+	{"rhs_googles_clear", {__ICE_gear_allRoles}}
+};
